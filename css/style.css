@@ -1,0 +1,57 @@
+body {
+  background-image: url(./../imgProyecto/fondo-claro.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.nav-propia {
+  background-color: pink;
+}
+
+.linkpropio {
+  color: white;
+}
+
+ul li {
+  list-style: none;
+  color: fuchsia;
+  font-size: 18px;
+  display: inline-block;
+  margin: 15px;
+}
+
+main {
+  font-weight: bold;
+  margin-top: 75px;
+  text-align: center;
+  color: rgb(211, 63, 144);
+}
+
+.card-propia {
+  max-width: 50%;
+  max-height: 50%;
+  margin: 20%;
+  color: rgb(233, 109, 202);
+}
+
+p {
+  text-align: center;
+  color: fuchsia;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 300) {
+  .nav {
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
