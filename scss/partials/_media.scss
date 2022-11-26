@@ -1,0 +1,22 @@
+@media (min-width:768px) {
+    .contenedor-zapato{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width:768px) {
+    .copyright {
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+}
+
+.copyright p {
+    font-size: 1rem;
+}
+@media (min-width:768px) {
+    .copyright p {
+        font-size: 1.2rem;
+
+    }
+}

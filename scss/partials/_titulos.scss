@@ -1,0 +1,15 @@
+main{
+    .titulos{
+    color: $secondColor;
+    text-align: center;
+    margin-top: 100px;
+    }
+    .subtitulos, h3{
+        color: $mainColor;
+        text-align: center;
+    }
+    .card-propia{
+        color: white;
+    }
+        
+}
