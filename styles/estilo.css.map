@@ -1,0 +1,1 @@
+{"version":3,"sources":["partials/_variables.scss","partials/_reset.scss","estilo.css","partials/_body.scss","partials/_barra.scss"],"names":[],"mappings":"AAAQ,4HAAA;ACAR;EACI,SAAA;EACA,UAAA;ACEJ;;ACJA;EACI,2DAAA;EACA,4BAAA;EACA,sBAAA;ADOJ;;AEVA;EACI,sBAAA;AFaJ;AEXI;EACI,YAAA;AFaR","file":"estilo.css"}
