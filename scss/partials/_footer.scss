@@ -1,16 +1,33 @@
-.enlaces{
-    .div-footer{
-        i{
-        text-decoration: none;
-        background-color: $secondColor;
-        color: white;
-        border-top: 1px;
-        display: flex;
-        flex-direction: column;
-        grid-row: 2/3;
-        padding-left: 15%;
-        }
+.footer-contenedor{
+    border-top: 1px solid rgb(209, 208, 208);
+    background-color: rgb(233, 130, 181);
+    text-decoration: none;
 
-    }
+        .menu-footer{
+        display: grid;
+        align-items: center;
+        gap: 1rem;
+
+            .enlaces{
+            display: flex;
+            flex-direction: column;
+            grid-row: 2/3;        
+            
+                .div-footer {
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                    .div-footer a {
+                    color: white;
+                    font-size: 2.5rem;
+                    }
+                
+                    .footer-imagen iframe{
+                    width: 100%;
+                    }
+                }
+            }
+
+        }
 
 }
