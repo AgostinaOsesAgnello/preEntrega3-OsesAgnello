@@ -3,20 +3,35 @@
         grid-template-columns: repeat(3,1fr);
     }
 }
+@media (min-width:768px) {
+    .menu-footer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .enlaces{
+        grid-row: unset;
+        .div-footer{
+            justify-content: center;
+            a {
+                color: white;
+                font-size: 2.5rem;
+            }
+            iframe{
+                width: 100%;
+            }
+        
+        } 
 
+    }
+
+}
 @media (min-width:768px) {
     .copyright {
         margin-top: 1rem;
         padding: 2rem;
+        .piedepagina {
+            font-size: 1.2rem;
+    
+        }
     }
-}
 
-.copyright p {
-    font-size: 1rem;
-}
-@media (min-width:768px) {
-    .copyright p {
-        font-size: 1.2rem;
-
-    }
 }

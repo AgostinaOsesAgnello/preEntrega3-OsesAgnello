@@ -1,0 +1,16 @@
+.enlaces{
+    .div-footer{
+        i{
+        text-decoration: none;
+        background-color: $secondColor;
+        color: white;
+        border-top: 1px;
+        display: flex;
+        flex-direction: column;
+        grid-row: 2/3;
+        padding-left: 15%;
+        }
+
+    }
+
+}

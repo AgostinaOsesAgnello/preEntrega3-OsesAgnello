@@ -75,9 +75,38 @@ p {
   font-size: 2rem;
 }
 
+.enlaces .div-footer i {
+  text-decoration: none;
+  background-color: rgb(245, 98, 179);
+  color: white;
+  border-top: 1px;
+  display: flex;
+  flex-direction: column;
+  grid-row: 2/3;
+  padding-left: 15%;
+}
+
 @media (min-width: 768px) {
   .contenedor-zapato {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .menu-footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .enlaces {
+    grid-row: unset;
+  }
+  .enlaces .div-footer {
+    justify-content: center;
+  }
+  .enlaces .div-footer a {
+    color: white;
+    font-size: 2.5rem;
+  }
+  .enlaces .div-footer iframe {
+    width: 100%;
   }
 }
 @media (min-width: 768px) {
@@ -85,13 +114,7 @@ p {
     margin-top: 1rem;
     padding: 2rem;
   }
-}
-.copyright p {
-  font-size: 1rem;
-}
-
-@media (min-width: 768px) {
-  .copyright p {
+  .copyright .piedepagina {
     font-size: 1.2rem;
   }
 }/*# sourceMappingURL=style.css.map */
